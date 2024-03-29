@@ -1,0 +1,33 @@
+/* styles/questions.module.css */
+.questionsContainer {
+    @apply p-4;
+  }
+  
+  .questionItem {
+    @apply mb-4 p-4 border rounded shadow-sm;
+  }
+  
+  .questionTitle {
+    @apply text-lg font-semibold;
+  }
+  
+  .questionBody {
+    @apply mt-1;
+  }
+  
+  .buttonsContainer {
+    @apply flex justify-end mt-2;
+  }
+  
+  .likeButton {
+    @apply px-4 py-2 mr-2 text-white bg-green-500 rounded hover:bg-green-700;
+  }
+  
+  .dislikeButton {
+    @apply px-4 py-2 text-white bg-red-500 rounded hover:bg-red-700;
+  }
+
+  .keywordDisplay {
+    @apply bg-blue-100 text-blue-800 py-2 px-4 rounded my-4 text-center;
+  }
+  

@@ -1,0 +1,73 @@
+[
+    {
+        "id": 101,
+        "question": "What is Next.js and how does it differ from Create React App?",
+        "answer": "Next.js is a React framework offering server-side rendering (SSR) and static site generation (SSG), focusing on performance and SEO. Create React App is a client-side React toolkit without out-of-the-box SSR support."
+    },
+    {
+        "id": 102,
+        "question": "How does server-side rendering (SSR) work in Next.js and what are its benefits?",
+        "answer": "SSR in Next.js renders React components on the server and sends the HTML to the client, improving initial load times and SEO."
+    },
+    {
+        "id": 103,
+        "question": "Can you explain the role of pages in Next.js and how routing is managed?",
+        "answer": "Pages in Next.js are React components placed in the `pages` directory, automatically becoming routes. Next.js supports dynamic routing using file names as the URL pattern."
+    },
+    {
+        "id": 104,
+        "question": "How do you create dynamic routes in Next.js?",
+        "answer": "Dynamic routes are created by adding square brackets to a page's file name (e.g., `[id].js`) in the `pages` directory, allowing for parameterized URLs."
+    },
+    {
+        "id": 105,
+        "question": "What are static site generation (SSG) and incremental static regeneration (ISR) in Next.js?",
+        "answer": "SSG generates HTML at build time, enabling fast loading and SEO benefits. ISR is a feature that allows pages to be regenerated on a per-request basis after deployment."
+    },
+    {
+        "id": 106,
+        "question": "How do you fetch data for your components in Next.js using getStaticProps and getServerSideProps?",
+        "answer": "`getStaticProps` fetches data at build time for SSG, while `getServerSideProps` fetches data for each request in SSR contexts."
+    },
+    {
+        "id": 107,
+        "question": "What are the best practices for styling Next.js applications?",
+        "answer": "Next.js supports CSS Modules, global CSS, and popular CSS-in-JS libraries, enabling scoped and globally applied styles."
+    },
+    {
+        "id": 108,
+        "question": "How do you manage state in Next.js applications?",
+        "answer": "Next.js doesn’t prescribe a state management library. It can integrate with Context API, Redux, or any other React state management approach."
+    },
+    {
+        "id": 109,
+        "question": "What are API routes in Next.js and how do you use them to handle server-side logic?",
+        "answer": "Next.js API routes allow you to create RESTful endpoints as part of your Next.js app, which are useful for handling backend logic, like processing forms or interacting with databases."
+    },
+    {
+        "id": 110,
+        "question": "How do you implement authentication and authorization in Next.js apps?",
+        "answer": "Authentication can be implemented using Next.js API routes, third-party authentication services like Auth0, or NextAuth.js for a more integrated solution."
+    },
+    {
+        "id": 111,
+        "question": "Can you explain the importance of the _app.js and _document.js files in Next.js?",
+        "answer": "`_app.js` is used for initializing pages and includes global styles. `_document.js` is a server-side rendered document and is used to customize the HTML document."
+    },
+    {
+        "id": 112,
+        "question": "How do you optimize images in Next.js using the Image component?",
+        "answer": "The `Image` component optimizes images automatically, providing improved loading times and performance."
+    },
+    {
+        "id": 113,
+        "question": "What is the role of environment variables in Next.js and how do you use them?",
+        "answer": "Environment variables in Next.js allow you to store sensitive keys and config outside your codebase, which can be accessed using `process.env`."
+    },
+    {
+        "id": 114,
+        "question": "How can you customize the Webpack configuration in Next.js?",
+        "answer": "Next.js allows customizing Webpack config through the `next.config.js` file, enabling modifications like adding plugins or loaders."
+    }
+]
+  
